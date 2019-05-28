@@ -22,7 +22,7 @@ describe("index", () => {
 
   it("should init rollbar with ROLLBAR_ACCESS_TOKEN", () => {
     process.env.ROLLBAR_ACCESS_TOKEN = "abc";
-    const res = index({});
+    index({});
 
     sandbox.assert.calledOnce(rollbar);
     sandbox.assert.calledWith(rollbar, {

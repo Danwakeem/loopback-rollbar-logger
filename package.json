@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Danwakeem/loopback-rollbar-logger#readme",
   "devDependencies": {
+    "add": "^2.0.6",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^4.3.0",
@@ -32,12 +33,11 @@
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
     "prettier": "^1.17.1",
+    "prettier-eslint-cli": "^4.7.1",
     "proxyquire": "^2.1.0",
     "should": "^13.2.3",
     "should-sinon": "0.0.6",
-    "sinon": "^7.3.2",
-    "add": "^2.0.6",
-    "prettier-eslint-cli": "^4.7.1"
+    "sinon": "^7.3.2"
   },
   "dependencies": {
     "rollbar": "^2.7.1"

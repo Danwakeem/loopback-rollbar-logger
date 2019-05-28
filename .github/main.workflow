@@ -8,7 +8,7 @@ workflow "Build, Test, Lint, and Publish" {
 
 action "Build" {
   uses = "actions/npm@master"
-  args = "install"
+  args = "ci"
 }
 
 action "Test" {
