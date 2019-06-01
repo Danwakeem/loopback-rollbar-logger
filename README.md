@@ -1,5 +1,8 @@
 # Loopback Rollbar Logger
 
+[![Build Status](https://travis-ci.com/Danwakeem/loopback-rollbar-logger.svg?branch=master)](https://travis-ci.com/Danwakeem/loopback-rollbar-logger)
+[![Coverage Status](https://coveralls.io/repos/github/Danwakeem/loopback-rollbar-logger/badge.svg?branch=master)](https://coveralls.io/github/Danwakeem/loopback-rollbar-logger?branch=master)
+
 This is a simple loopback middleware component to log errored requests to rollbar
 
 ## Useage
